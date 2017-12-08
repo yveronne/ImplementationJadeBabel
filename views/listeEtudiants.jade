@@ -1,0 +1,14 @@
+extends layout
+include mixins
+
+block content
+    h1 Liste des étudiants
+    table.table.table-striped
+        thead
+            tr: th Noms et Prénoms
+        tbody
+            for etudiant in etudiants
+                tr 
+                    td  #{etudiant}
+                    td:  +button("Voir les détails")
+

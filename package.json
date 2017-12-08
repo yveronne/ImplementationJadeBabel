@@ -1,0 +1,29 @@
+{
+  "name": "JadeBabel",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "veronne",
+  "contributors": [],
+  "dependencies": {
+    "consign": "^0.1.2",
+    "express": "^4.16.2",
+    "jade": "^1.11.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^2.6.2"
+  }
+}
